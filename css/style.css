@@ -1,0 +1,54 @@
+* {
+    border: 2px solid black;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.type {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.locbox {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.loc {
+    display: flex;
+    height: 200px;
+    width: 200px;
+
+    font-size: 25px;
+    
+    justify-content: center;
+
+    
+}
+
+.toonbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.toons {
+    display: flex;
+    column-gap: 10px;
+}
+
+.icon {
+    display: flex;
+    height: 200px;
+    width: auto;
+        
+}
+
+.icon img{
+    border-radius: 50%;
+}
